@@ -1,1 +1,1 @@
-Simulating OEP7 protein (particulary interactions with ATG8E)
+OEP7 protein simulations (particulary interactions with ATG8E)
