@@ -1,3 +1,5 @@
+# just patching membrane (same as duncan system)
+
 proc rotatebond {idxlist idx idx2 rot {mid top} {f now}} {
 	#idxlist is the list of indices that will get rotated. idx is bonded to an element in idxlist, and that is the bond around which we will be rotating.
 	set rotatesel [atomselect $mid "index $idxlist" frame $f]
