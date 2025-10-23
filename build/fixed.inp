@@ -1,0 +1,14 @@
+tolerance 1.0
+filetype pdb
+output temp_combined.pdb
+
+structure oep7_membrane.pdb
+  number 1
+  center
+  fixed 0. 0. 0. 0. 0. 0.
+end structure
+
+structure atg8e_positioned.pdb
+  number 1
+  inside box -57.7 -18.9 67.4 -19.4 12.5 115.17
+end structure
