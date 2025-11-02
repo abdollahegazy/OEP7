@@ -12,7 +12,8 @@ toppar/
 *.dcd
 *.vel
 simulations
-initial_sasa
+# 
+initial_sasa/*/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
